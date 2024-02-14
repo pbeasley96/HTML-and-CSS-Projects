@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="website_style.css">
+
+    <title>Phillip Beasley</title>
+
+  </head>
+
+    <!--Body-->
+    <body class="Background">
+        
+        <!--Navbar-->
+        <div class="Navbar">
+            <a class="active" href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#GitHub">GitHub</a>
+            <a href="#Contact">Contact</a>
+        </div>
+
+        <!--Background video-->
+        <div id="Home">
+            <video autoplay muted loop id="Coding_Video">
+                <source src="Portfolio_Website_Video.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <!--Video text-->
+        <div class="Video_Text">
+            <h1 class="white-text">Who am I?</h1>
+              <strong>
+                <p class="center">
+		  My name is Phillip Beasley. Welcome to my portfolio website!
+                <br>
+	        <br>
+		  This is my story, my background, experiences, and my goals.
+                </p>
+              </strong>
+        </div>
+	
+  <main>
+
+        <!--About section-->
+        <div class="Row" id="About">
+            <!--Left column-->
+            <div class="Column_1">
+                <img src="images/Portfolio_Website_Image1.jpg" alt="Art/Design">
+            </div>
+
+            <!--Middle column-->
+            <div class="Column_2">
+                <h1>A little about me...</h1>
+                  <p>I was born in Clarksville, TN.</p>
+		  <p>I had a love for art/designing ever since I was seven years old.</p>
+		  <p>I am driven and dedicated to my goal in looking for a new career oppurtunities to be a Front End Web Developer.</p>
+                  <p>I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>’s Software Developer Boot Camp, and trained and experienced in the following web and programming languages: HTML, CSS, JavaScript, SQL, C# and more.</p> 
+                  <p>I am a Front End Developer and would love to work with you on your project. <a href="#Contact">Contact</a> me below!</p>
+	    </div>
+
+	    <!--Right column-->
+            <div class="Column_3">
+                <img src="images/Portfolio_Website_Image2.jpg" alt="Front End Development">
+            </div>
+
+        </div>
+
+        <!--GitHub section-->
+        <div class="container" id="GitHub">
+          <h1>GitHub</h1>
+            <div class="flex-container">
+                <p>
+                    You can view my coding projects on my GitHub profile here:
+                    <br>
+                    <p class="center"><a href="https://github.com/pbeasley96" target="_blank">My Github</a></p>
+                </p>
+            </div>
+        </div>
+
+        <!--Contact section-->
+	<div class="conatiner" id="Contact">
+	    <div>
+                <h1>Contact</h1>
+                <form action="https://formspree.io/f/xjvnwrbz" method="POST"> 
+                    <label>Name:</label>
+                        <input type="text" placeholder="Please enter your name here">
+                    <label>Email:</label>
+                        <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                    <label>Message:</label>
+                        <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                        <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+        </div>
+
+        <!--Footer section-->
+        <footer>
+            <p>
+                <p class="center">&copy Phillip Beasley., www.PhillipBeasley.com &nbsp;|&nbsp; &copy; 2024</a></p>
+                <br>
+            </p>
+        </footer>
+
+  </main>
+
+  </body>
+</html>
